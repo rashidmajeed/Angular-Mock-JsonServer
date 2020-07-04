@@ -1,0 +1,119 @@
+{     
+    "customers":[
+        { 
+            "id": 1,
+            "name": "Anderson",
+            "email": "anderson@loanmanager.com",
+            "phone": "004576774565",
+            "address": "Glostrup, Copenhagen",
+            "job": "Software Engineer",
+            "nationality": "Danish"
+          },
+          { 
+            "id": 2,
+            "name": "Bo Hansen",
+            "email": "bohansen@loanmanager.com",
+            "phone": "004581324565",
+            "address": "Restaurant Owner",
+            "job": "Software Engineer",
+            "nationality": "Danish"
+          },
+          { 
+            "id": 3,
+            "name": "Martina",
+            "email": "martina@loanmanager.com",
+            "phone": "004581332223",
+            "address": "Amager, Coprnhagen",
+            "job": "Student",
+            "nationality": "Danish"
+          },
+          { 
+            "id": 4,
+            "name": "Marriane",
+            "email": "marriane@loanmanager.com",
+            "phone": "004581354345",
+            "address": "Glostrup, Arhus",
+            "job": "Teacher",
+            "nationality": "Danish"
+          }
+    ],
+    "loans": [
+        { 
+            "id": 1,
+            "amount": 600000,
+            "interest": "7%",
+            "bank": "Nordea Bank",
+            "category": "Property",
+            "plan": "5 years",
+            "customerId": "2", 
+            "startDate": "2019-06-04",
+            "endDate": "2024-06-04"
+          },
+          { 
+            "id": 2,
+            "amount": 20000,
+            "interest": "2%",
+            "bank": "Danske Bank",
+            "category": "vehicle",
+            "plan": "1 years",
+            "customerId": "2", 
+            "startDate": "2020-06-04",
+            "endDate": "2021-06-04"
+          },
+          { 
+            "id": 3,
+            "amount": 150000,
+            "interest": "8%",
+            "bank": "Danske Bank",
+            "category": "Personal",
+            "plan": "2 years",
+            "customerId": "4", 
+            "startDate": "2020-04-11",
+            "endDate": "2022-04-11"
+          },
+          { 
+            "id": 4,
+            "amount": 20000,
+            "interest": "3%",
+            "bank": "Jyske Bank",
+            "category": "Education",
+            "plan": "5 years",
+            "customerId": "3", 
+            "startDate": "2020-04-11",
+            "endDate": "2022-04-11"
+          },
+          { 
+            "id": 5,
+            "amount": 14000,
+            "interest": "2%",
+            "bank": "Nordea Bank",
+            "category": "Tourism",
+            "plan": "1 year",
+            "customerId": "3", 
+            "startDate": "2020-01-16",
+            "endDate": "2021-01-16"
+          },
+          { 
+            "id": 6,
+            "amount": 9800,
+            "interest": "1%",
+            "bank": "Nordea Bank",
+            "category": "damage",
+            "plan": "6 months ",
+            "customerId": "4", 
+            "startDate": "2020-07-10",
+            "endDate": "2021-02-10"
+          },
+          { 
+            "id": 1,
+            "amount": 675000,
+            "interest": "7%",
+            "bank": "Danske Bank",
+            "category": "IT Business",
+            "plan": "10 years",
+            "customerId": "1", 
+            "startDate": "2020-07-04",
+            "endDate": "2030-07-04"
+          }
+        ]
+}
