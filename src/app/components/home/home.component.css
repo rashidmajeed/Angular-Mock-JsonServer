@@ -1,0 +1,25 @@
+.heading {
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: rgb(97, 85, 85);
+  font-family: Stencil Std, fantasy
+}
+
+.picsum-img-wrapper img {
+  width: 100%
+}
+
+.push-footer {
+  height: 50px;
+  /* .push must be the same height as .footer */
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  background-color: #0f0f0f;
+  padding: 15px
+}

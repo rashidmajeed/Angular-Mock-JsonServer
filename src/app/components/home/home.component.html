@@ -1,1 +1,18 @@
-<p>home works!</p>
+<div offer-detail-image-div>
+    <h2 class="heading">Loan Manager</h2>
+ <ngb-carousel>
+    <ng-template *ngFor="let slide of slides" ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="{{slide.img}}" alt="Random first slide" style="max-height:600px">
+      </div>
+      <div class="carousel-caption">
+        <h3>{{slide.name}}</h3>
+        <p>{{slide.desc}}</p>
+      </div>
+    </ng-template>
+</ngb-carousel>
+</div>
+<div class="push-footer"></div>
+  <div class="footer">
+    &copy;<span>2020 Loan Manager All Rights Reserved</span>
+  </div>
